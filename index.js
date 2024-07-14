@@ -1,7 +1,13 @@
 function isPalindrome(word) {
-  // Write your algorithm here
+  let reversedWord = word.split('').reverse().join('')
+  return word === reversedWord;
 }
 
+console.log(isPalindrome("madam"));
+console.log(isPalindrome("robot"))
+console.log(isPalindrome("racecar"))
+console.log(isPalindrome("a"))
+console.log(isPalindrome("ab"))
 /* 
   Add your pseudocode here
 */
